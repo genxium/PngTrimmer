@@ -41,7 +41,7 @@ public class Trimmer {
             if (!info.alpha) throw new NoAlphaChannelException();
             /*
                 there're 4 types of channel arrangements: RGB, RGBA, GA(gray scale with alpha), G(gray scale)
-                this method works only for type RGBA of variable numbers of channels
+                this method works only for type RGBA of variable bit-depth
              */
             int baseMask = (1 << info.bitDepth) - 1;
 
