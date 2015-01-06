@@ -14,7 +14,7 @@ public class Trimmer {
     public static void main(String[] args) {
 	System.out.println("FYI:\tLength of args array is " + args.length);
         if (args.length < 1) {
-            System.out.println("You have to specify the patch to a .png file or a directory containing .png files, e.g. \"java com.graphics.Trimmer /absolute/path/to/directory\"");
+            System.out.println("You have to specify the path to a .png file or a directory containing .png files, e.g. \"java com.graphics.Trimmer /absolute/path/to/directory\"");
             return;
         }
 
